@@ -1,6 +1,6 @@
 # noted
 
-noted_api is available at https://github.com/KushagraAgarwal525/noted_api
+noted_api is available at https://github.com/trudever/chrome_extension_api
 
 ## Problem statement
 
@@ -26,7 +26,7 @@ To solve the problem, comes noted. A chrome web extension with the ability for u
 
 ### What was done
 
-A RESTful [API](https://github.com/KushagraAgarwal525/noted_api) was created using Express.js, Node.js, and MongoDB as the database. The API serves as a universal front to serve and update data to and from the users. The API stores the user passwords using a one-way hash which provides security. Mongoose data models were used for the MongoDB database which stores all data related to users and notes. The starter template code from https://github.com/raman-at-pieces/youtube-bookmarker-starter-code was used a base for the chrome extension. The background.js file used chrome.tabs to send messages when events of interest occured which were listened to and acted upon by the contentScripts.js file. The chrome extension in all, uses the fetch API to connect to the Express server which queries the database. The codebase also has a utils.js file containing utility functions which are exported from the file for reusability. 
+A RESTful [API](https://github.com/trudever/chrome_extension_api) was created using Express.js, Node.js, and MongoDB as the database. The API serves as a universal front to serve and update data to and from the users. The API stores the user passwords using a one-way hash which provides security. Mongoose data models were used for the MongoDB database which stores all data related to users and notes. The starter template code from https://github.com/raman-at-pieces/youtube-bookmarker-starter-code was used a base for the chrome extension. The background.js file used chrome.tabs to send messages when events of interest occured which were listened to and acted upon by the contentScripts.js file. The chrome extension in all, uses the fetch API to connect to the Express server which queries the database. The codebase also has a utils.js file containing utility functions which are exported from the file for reusability. 
 
 ### Challenges faced
 
