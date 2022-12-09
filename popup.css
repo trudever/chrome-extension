@@ -1,0 +1,42 @@
+.container {
+  width: 280px;
+  color: #314d3e;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.textbox {
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+  padding: 0px 2px;
+}
+
+.textbox:focus {
+  outline: 0;
+  border-color: #66afe9;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-link {
+    background-color: transparent;
+    border: none;
+    color: #314d3e;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.note {
+    color: #000000;
+    font-weight: bold;
+}

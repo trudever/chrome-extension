@@ -1,0 +1,44 @@
+<link href="popup.css" rel="stylesheet" type="text/css" />
+<script type="module" src="popup.js" defer></script>
+
+<div class="container">
+  <div>
+    <div class="title">Noted!</div>
+    <div class="register-form-div">
+        <form id="register-form">
+            <input type="text" name="username" placeholder="Username" />
+            <input type="password" name="password" placeholder="Password" />
+            <button type="submit">Register</button>
+        </form>
+        <button id="switch-to-login" class="btn-link">Login</button>
+    </div>
+    <div class="login-form-div hidden">
+        <form id="login-form">
+            <input type="text" name="username" placeholder="Username" />
+            <input type="password" name="password" placeholder="Password" />
+            <button type="submit">Login</button>
+        </form>
+        <button id="switch-to-register" class="btn-link">Register</button>
+    </div>
+    <div class="note-form-div hidden everything-notes-div">
+        <div>Add Note</div>
+        <form id="note-form">
+            <textarea id="note" name="note" rows="4" cols="30"></textarea>
+            <button id="save">Save</button>
+        </form>
+        <div class="notes">
+            
+        </div>
+        <div class="share-notes-div">
+            <form class="share-notes">
+                <input type="text" name="username" placeholder="Share with username" />
+                <button id="share">Share</button>
+            </form>
+            <!-- <div class="url-div hidden">
+                <input type="text" id="url" value="" disabled />
+                <button id="copy-url">Copy</button>
+            </div> -->
+        </div>
+    </div>
+  </div>
+</div>
